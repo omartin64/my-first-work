@@ -1,0 +1,127 @@
+/********************
+GENERAL              
+********************/
+body {
+    font-family: 'open sans' , sans-serif;
+}
+
+
+#wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+/* logo texts */
+#logo{
+    text-align: center;
+    margin: 0%;
+}
+
+img{
+    max-width: 100%; 
+}
+
+footer,header, section{
+  border: 1px solid;
+}
+
+/********************
+COLORS             
+********************/
+/*green header*/
+header{
+    background-color: #6ab47b;
+    border-color: #599a68;
+}
+
+/* site body */
+body {
+    background-color: whitesmoke;
+    color: #999;
+}
+
+/* logo text */
+  h1,h2{
+    color: blue;
+  }
+  a{
+    color:blue;
+}
+
+/* unvisited link */z
+a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: green
+  }
+
+  /* selected link */
+  a:active {
+    color: greenyellow;
+  }
+  
+/********************
+NAVIGATION       
+********************/
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+/********************
+FOOTER
+********************/
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px ;
+}
+  
+/********************
+PAGE PORTFOLIO
+********************/
+#gallery{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+#gallery li{
+    /* float:left; */
+    width: 45%;
+    margin: 2.5%;
+    background-color: whitesmoke;
+    color: darkseagreen;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  color: blue;
+}
+/********************
+HEADING             
+********************/
+  h1{
+    font-family: 'changa one', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;     
+    line-height: 0.8em;
+}
+  h2{
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+  }
